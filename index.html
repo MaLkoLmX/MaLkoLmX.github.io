@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Boka</title>
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.min.css" rel="stylesheet">
+  </head>
+
+  <body class="index-page">
+    <header class="page-header">
+      <div class="header__container">
+        <a class="header__logo" href="index.html">
+          <img src="img/boka.png" width="136" height="96" alt="Boca Logo">
+        </a>
+        <div class="header__select-lang">
+          <ul class="header__lang-list lang-list">
+            <li class="lang-list__item">
+              <a class="lang-list__link lang-list__link--active" href="#">English</a>
+            </li>
+            <li class="lang-list__item">
+              <a class="lang-list__link" href="#">Bangla</a>
+            </li>
+            <li class="lang-list__item">
+              <a class="lang-list__link" href="#">Arabic</a>
+            </li>
+            <li class="lang-list__item">
+              <a class="lang-list__link" href="#">Spanish</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="header__main-theme main-theme">
+        <h1 class="main-theme__boka">boka!</h1>
+        <b class="main-theme__subtitle">A GREAT DATING PLACE</b>
+        <a class="main-theme__button button" href="#">Discover</a>
+      </div>
+    </header>
+
+    <main class="page-main">
+      <h2 class="page-main__title">Get Started</h2>
+      <form class="page-main__form form" method="get" action="https://echo.htmlacademy.ru">
+        <div class="form__wrapper">
+          <h3 class="form__name">I am</h3>
+            <input class="form__radio form__radio--gender form__radio--men-gender" id="men-gender" type="radio" name="gender" value="male">
+            <input class="form__radio form__radio--gender form__radio--women-gender" id="women-gender" type="radio" name="gender" value="female">
+            <div class="form__radio-wrapper form__radio-wrapper--gender">
+              <label class="form__label-radio button" for="men-gender">Men</label>
+              <label class="form__label-radio button" for="women-gender">Women</label>
+            </div>
+        </div>
+        <div class="form__wrapper">
+          <h3 class="form__name">Looking for</h3>
+            <input class="form__radio form__radio--men-partner" id="men-partner" type="radio" name="partner-gender" value="male" disabled>
+            <input class="form__radio form__radio--women-partner" id="women-partner" type="radio" name="partner-gender" value="female" disabled>
+            <div class="form__radio-wrapper form__radio-wrapper--partner">
+              <label class="form__label-radio button" for="men-partner">Men</label>
+              <label class="form__label-radio button" for="women-partner">Women</label>
+            </div>
+        </div>
+        <p class="form__data">
+          <label class="form__name">email</label>
+          <input class="form__field" type="email" name="email" placeholder="wrobi1267@gmail.com">
+        </p>
+        <p class="form__data">
+          <label class="form__name">Password</label>
+          <input class="form__field" type="password" name="password" placeholder="**********">
+        </p>
+        <button class="form__button button" type="submit">Join now</button>
+        <p class="form__agreement">By registering you agree to the Terms and Conditions or Privacy Policy. You will receive all communication from Boka directly in your mail box.</p>
+      </form>
+
+      <div class="pictures">
+        <img class="pictures__item" src="img/photo-1.jpg" width="500" height="500" alt="Photo men">
+        <img class="pictures__item pictures__item--absolute" src="img/photo-2.jpg" width="673" height="504" alt="Photo men">
+        <div class="pictures__wrapper">
+          <img class="pictures__item pictures__item--top" src="img/photo-3.jpg" width="200" height="300" alt="Photo men">
+          <img class="pictures__item" src="img/photo-4.jpg" width="300" height="450" alt="Photo men">
+          <img class="pictures__item pictures__item--top" src="img/photo-5.jpg" width="200" height="300" alt="Photo men">
+        </div>
+      </div>
+
+      <section class="tips">
+        <h2 class="tips__title">Tips for first Dating</h2>
+        <p class="tips__description">Dating is sometimes harder than it should be. After countless dinners and drinks, it can be tempting to throw in the towel and resign to nights of forever watching Netflix alone inyo-ur bed. But when dating is done right, it can be amazing, and those great dates often lead to great relationships. So consider this your dating playbook, with all the information you need to survive the first date and make sure there's a second one..</p>
+      </section>
+
+      <b class="copyright">Copyright © 2017 Boka. All rights reserved. 1170pxX4000px.</b>
+    </main>
+
+    <footer class="page-footer">
+      <ul class="page-footer__nav nav">
+        <li class="nav__item">
+          <a class="nav__link nav__link--active">
+            About us
+          </a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link">
+            Terms
+          </a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link">
+            Privacy
+          </a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link">
+            Customer Care
+          </a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link">
+            Contact us
+          </a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link">
+            Press
+          </a>
+        </li>
+      </ul>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
